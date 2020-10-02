@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AnagraficApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="329.175">
-    <Grid>
-        <Button x:Name="btnInserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="98,315,0,0" VerticalAlignment="Top" Width="75" Click="btnInserisci_Click"/>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="113,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Height="23" Margin="113,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtLuogo" HorizontalAlignment="Left" Height="23" Margin="113,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCodiceFiscale" HorizontalAlignment="Left" Height="23" Margin="113,184,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtClasse" HorizontalAlignment="Left" Height="23" Margin="113,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <DatePicker HorizontalAlignment="Left" Margin="113,156,0,0" VerticalAlignment="Top" Width="120"/>
+        Title="MainWindow" Height="450" Width="491.247">
+    <Grid Margin="0,0,-455,0">
+        <Button x:Name="btnInserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="151,282,0,0" VerticalAlignment="Top" Width="185" Click="btnInserisci_Click" Height="44"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="113,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Height="23" Margin="113,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:Name="txtLuogo" HorizontalAlignment="Left" Height="23" Margin="113,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:Name="txtCodiceFiscale" HorizontalAlignment="Left" Height="23" Margin="113,184,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:Name="txtClasse" HorizontalAlignment="Left" Height="23" Margin="113,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="292"/>
+        <DatePicker HorizontalAlignment="Left" Margin="113,156,0,0" VerticalAlignment="Top" Width="292"/>
         <Label Content="Nome" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
         <Label Content="Cognome" HorizontalAlignment="Left" Margin="8,98,0,0" VerticalAlignment="Top"/>
         <Label Content="Luogo di nascita" HorizontalAlignment="Left" Margin="8,125,0,0" VerticalAlignment="Top"/>
